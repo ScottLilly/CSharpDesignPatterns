@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{25D0207B-A871-4EF6-A23B-1FF7B15306FE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Engine</RootNamespace>
+    <AssemblyName>Engine</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveRecordPattern\Customer.cs" />
+    <Compile Include="CommandPattern\PatternVersion\Account.cs" />
+    <Compile Include="CommandPattern\NonPatternVersion\Account.cs" />
+    <Compile Include="CommandPattern\PatternVersion\Deposit.cs" />
+    <Compile Include="CommandPattern\PatternVersion\ITransaction.cs" />
+    <Compile Include="CommandPattern\PatternVersion\TransactionManager.cs" />
+    <Compile Include="CommandPattern\PatternVersion\Transfer.cs" />
+    <Compile Include="CommandPattern\PatternVersion\Withdraw.cs" />
+    <Compile Include="DataMapperPattern\Customer.cs" />
+    <Compile Include="DataMapperPattern\CustomerDataMapper.cs" />
+    <Compile Include="FactoryPattern\NonPatternVersion\Player.cs" />
+    <Compile Include="FactoryPattern\PatternVersion_ExternalFactory\Player.cs" />
+    <Compile Include="FactoryPattern\PatternVersion_ExternalFactory\PlayerFactory.cs" />
+    <Compile Include="FactoryPattern\PatternVersion_InternalFactory\Player.cs" />
+    <Compile Include="FactoryPattern\PatternVersion_MultipleDatatypes\FlyingMonster.cs" />
+    <Compile Include="FactoryPattern\PatternVersion_MultipleDatatypes\LandMonster.cs" />
+    <Compile Include="FactoryPattern\PatternVersion_MultipleDatatypes\Monster.cs" />
+    <Compile Include="FactoryPattern\PatternVersion_MultipleDatatypes\MonsterFactory.cs" />
+    <Compile Include="FactoryPattern\PatternVersion_MultipleDatatypes\SeaMonster.cs" />
+    <Compile Include="MementoPattern\Customer_MultipleMemento.cs" />
+    <Compile Include="MementoPattern\Customer_SimpleMemento.cs" />
+    <Compile Include="MementoPattern\Customer_BetterMemento.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingletonPattern\NonPatternVersion\Customer.cs" />
+    <Compile Include="SingletonPattern\NonPatternVersion\Logger.cs" />
+    <Compile Include="SingletonPattern\PatternVersion_DoubleLock\Logger.cs" />
+    <Compile Include="SingletonPattern\PatternVersion_StaticInitialization\Logger.cs" />
+    <Compile Include="WrapperFacadePattern\NonPatternVersion_Complex\MyClassForFacade.cs" />
+    <Compile Include="WrapperFacadePattern\NonPatternVersion_Medium\MyClassForFacade.cs" />
+    <Compile Include="WrapperFacadePattern\NonPatternVersion_Simple\MyClassForFacade.cs" />
+    <Compile Include="WrapperFacadePattern\PatternVersion\EmailCreator.cs" />
+    <Compile Include="WrapperFacadePattern\PatternVersion\IEmailFluentInterface.cs" />
+    <Compile Include="WrapperFacadePattern\PatternVersion\MyClassForFacade.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ActiveRecordPattern\READ_ME.txt" />
+    <Content Include="CommandPattern\READ_ME.txt" />
+    <Content Include="DataMapperPattern\READ_ME.txt" />
+    <Content Include="FactoryPattern\READ_ME.txt" />
+    <Content Include="LICENSE.txt" />
+    <Content Include="MementoPattern\READ_ME.txt" />
+    <Content Include="READ_ME.txt" />
+    <Content Include="SingletonPattern\READ_ME.txt" />
+    <Content Include="WrapperFacadePattern\READ_ME.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
