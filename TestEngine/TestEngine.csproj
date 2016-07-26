@@ -52,7 +52,14 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="CommandPattern\PatternVersion\TestTransactionManager.cs" />
+    <Compile Include="CommandPattern\TestCommandPattern.cs" />
+    <Compile Include="FactoryPattern\TestFactoryPattern_NonPatternVersion.cs" />
+    <Compile Include="FactoryPattern\TestFactoryPattern_PatternVersion_ExternalFactory.cs" />
+    <Compile Include="FactoryPattern\TestFactoryPattern_PatternVersion_InternalFactory.cs" />
+    <Compile Include="FactoryPattern\TestFactoryPattern_PatternVersion_MultipleDatatypes.cs" />
+    <Compile Include="MementoPattern\MementoPattern_SimpleMemento.cs" />
+    <Compile Include="MementoPattern\MementoPattern_BetterMemento.cs" />
+    <Compile Include="MementoPattern\MementoPattern_MultipleMemento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,7 +68,9 @@
       <Name>Engine</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="DataMapperPattern\" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

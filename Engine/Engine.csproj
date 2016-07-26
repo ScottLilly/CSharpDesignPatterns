@@ -59,9 +59,9 @@
     <Compile Include="FactoryPattern\PatternVersion_MultipleDatatypes\Monster.cs" />
     <Compile Include="FactoryPattern\PatternVersion_MultipleDatatypes\MonsterFactory.cs" />
     <Compile Include="FactoryPattern\PatternVersion_MultipleDatatypes\SeaMonster.cs" />
-    <Compile Include="MementoPattern\Customer_MultipleMemento.cs" />
-    <Compile Include="MementoPattern\Customer_SimpleMemento.cs" />
-    <Compile Include="MementoPattern\Customer_BetterMemento.cs" />
+    <Compile Include="MementoPattern\MultipleMemento\Customer.cs" />
+    <Compile Include="MementoPattern\SimpleMemento\Customer.cs" />
+    <Compile Include="MementoPattern\BetterMemento\Customer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SingletonPattern\NonPatternVersion\Customer.cs" />
     <Compile Include="SingletonPattern\NonPatternVersion\Logger.cs" />

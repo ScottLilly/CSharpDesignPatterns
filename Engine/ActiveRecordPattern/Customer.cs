@@ -12,6 +12,8 @@ namespace Engine.ActiveRecordPattern
         public string Name { get; set; }
         public bool IsPremiumMember { get; set; }
 
+        // The constructor could be made "private", 
+        // with instantiation handled by static functions like "GetByID()".
         public Customer(int id, string name, bool isPremiumMember)
         {
             ID = id;

@@ -1,6 +1,6 @@
-﻿namespace Engine.MementoPattern
+﻿namespace Engine.MementoPattern.BetterMemento
 {
-    public class Customer_BetterMemento
+    public class Customer
     {
         // This is the memento object, which holds the original values.
         private readonly CustomerMemento _customerMemento;
@@ -24,8 +24,7 @@
             }
         }
 
-        public Customer_BetterMemento(int id, string name, string address,
-            string city, string stateProvince, string postalCode)
+        public Customer(int id, string name, string address, string city, string stateProvince, string postalCode)
         {
             ID = id;
             Name = name;

@@ -1,6 +1,6 @@
-﻿namespace Engine.MementoPattern
+﻿namespace Engine.MementoPattern.SimpleMemento
 {
-    public class Customer_SimpleMemento
+    public class Customer
     {
         private readonly string _originalAddress;
         private readonly string _originalCity;
@@ -29,8 +29,7 @@
             }
         }
 
-        public Customer_SimpleMemento(int id, string name,
-            string address, string city, string stateProvince, string postalCode)
+        public Customer(int id, string name, string address, string city, string stateProvince, string postalCode)
         {
             ID = id;
             Name = name;

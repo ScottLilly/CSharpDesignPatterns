@@ -1,10 +1,10 @@
 ﻿using Engine.CommandPattern.PatternVersion;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace TestEngine.CommandPattern.PatternVersion
+namespace TestEngine.CommandPattern
 {
     [TestClass]
-    public class TestTransactionManager
+    public class TestCommandPattern
     {
         [TestMethod]
         public void Test_AllTransactionsSuccessful()

@@ -11,7 +11,7 @@ There is a folder for each pattern.
 
 TestEngine project notes
 =========================================
-This is an MSTest unit test project. It has tests that show how the pattern could be used.
+This is an MSTest unit test project. It has tests that show how the pattern could be used, for many of the patterns.
 
 The directory structure matches the "Engine" project.
 

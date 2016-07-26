@@ -4,7 +4,7 @@
     {
         public static Player LoadPlayer()
         {
-            return new Player(10, 0, 10);
+            return new Player(10, 0, 25);
         }
     }
 }

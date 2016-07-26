@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Engine.MementoPattern
+namespace Engine.MementoPattern.MultipleMemento
 {
-    public class Customer_MultipleMemento
+    public class Customer
     {
         // Save a list of memento objects, to allow for multiple "snapshots" of the Customer object.
         private readonly List<CustomerMemento> _customerMementoes = new List<CustomerMemento>();
@@ -15,8 +15,24 @@ namespace Engine.MementoPattern
         public string StateProvince { get; set; }
         public string PostalCode { get; set; }
 
-        public Customer_MultipleMemento(int id, string name, string address,
-            string city, string stateProvince, string postalCode)
+        public bool IsDirty
+        {
+            get
+            {
+                if(_customerMementoes.Count == 0)
+                {
+                    return false;
+                }
+
+                return Name != _customerMementoes.First().Name ||
+                       Address != _customerMementoes.First().Address ||
+                       City != _customerMementoes.First().City ||
+                       StateProvince != _customerMementoes.First().StateProvince ||
+                       PostalCode != _customerMementoes.First().PostalCode;
+            }
+        }
+
+        public Customer(int id, string name, string address, string city, string stateProvince, string postalCode)
         {
             ID = id;
             Name = name;
