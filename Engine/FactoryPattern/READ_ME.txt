@@ -2,7 +2,7 @@
 
 Create instances of your objects from a central class - the factory. This gives you flexibility, in case you need to change how an object is instantiated.
 
-Related design patterns: 
+Related/similar design patterns: 
 
 Website URL: http://scottlilly.com/c-design-patterns-the-factory-pattern/
 

@@ -1,7 +1,7 @@
 ﻿using Engine.CommandPattern.PatternVersion;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace TestEngine.CommandPattern
+namespace TestEngine.CommandPattern.PatternVersion
 {
     [TestClass]
     public class TestCommandPattern

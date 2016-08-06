@@ -2,7 +2,7 @@
 
 See if any of the properties of your object have changed, and add the ability to undo those changes.
 
-Related design patterns: 
+Related/similar design patterns: 
 
 Website URL: http://scottlilly.com/c-design-patterns-the-memento-pattern/
 

@@ -2,7 +2,7 @@
 
 Ensure your program only evers instantiates one object from a class. Useful for logging.
 
-Related design patterns: 
+Related/similar design patterns: 
 
 Website URL: http://scottlilly.com/c-design-patterns-the-singleton-pattern/
 

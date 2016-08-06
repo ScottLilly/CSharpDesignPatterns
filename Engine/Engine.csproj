@@ -48,6 +48,13 @@
     <Compile Include="CommandPattern\PatternVersion\TransactionManager.cs" />
     <Compile Include="CommandPattern\PatternVersion\Transfer.cs" />
     <Compile Include="CommandPattern\PatternVersion\Withdraw.cs" />
+    <Compile Include="CommandPattern\PatternVersion_WithUndo\Account.cs" />
+    <Compile Include="CommandPattern\PatternVersion_WithUndo\Deposit.cs" />
+    <Compile Include="CommandPattern\PatternVersion_WithUndo\Enums.cs" />
+    <Compile Include="CommandPattern\PatternVersion_WithUndo\ITransaction.cs" />
+    <Compile Include="CommandPattern\PatternVersion_WithUndo\TransactionManager.cs" />
+    <Compile Include="CommandPattern\PatternVersion_WithUndo\Transfer.cs" />
+    <Compile Include="CommandPattern\PatternVersion_WithUndo\Withdraw.cs" />
     <Compile Include="DataMapperPattern\Customer.cs" />
     <Compile Include="DataMapperPattern\CustomerDataMapper.cs" />
     <Compile Include="FactoryPattern\NonPatternVersion\Player.cs" />
@@ -67,6 +74,12 @@
     <Compile Include="SingletonPattern\NonPatternVersion\Logger.cs" />
     <Compile Include="SingletonPattern\PatternVersion_DoubleLock\Logger.cs" />
     <Compile Include="SingletonPattern\PatternVersion_StaticInitialization\Logger.cs" />
+    <Compile Include="StrategyPattern\NonPatternVersion_MultipleMethods\Calculator.cs" />
+    <Compile Include="StrategyPattern\NonPatternVersion_SingleMethod\Calculator.cs" />
+    <Compile Include="StrategyPattern\PatternVersion\AverageByMean.cs" />
+    <Compile Include="StrategyPattern\PatternVersion\AverageByMedian.cs" />
+    <Compile Include="StrategyPattern\PatternVersion\Calculator.cs" />
+    <Compile Include="StrategyPattern\PatternVersion\IAveragingMethod.cs" />
     <Compile Include="WrapperFacadePattern\NonPatternVersion_Complex\MyClassForFacade.cs" />
     <Compile Include="WrapperFacadePattern\NonPatternVersion_Medium\MyClassForFacade.cs" />
     <Compile Include="WrapperFacadePattern\NonPatternVersion_Simple\MyClassForFacade.cs" />
@@ -83,6 +96,7 @@
     <Content Include="MementoPattern\READ_ME.txt" />
     <Content Include="READ_ME.txt" />
     <Content Include="SingletonPattern\READ_ME.txt" />
+    <Content Include="StrategyPattern\READ_ME.txt" />
     <Content Include="WrapperFacadePattern\READ_ME.txt" />
   </ItemGroup>
   <ItemGroup />

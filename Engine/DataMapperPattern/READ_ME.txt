@@ -2,7 +2,7 @@
 
 This design pattern is one technique to handle creating objects from data in your database, and updating the database with changed values.
 
-Related design patterns: Active Record
+Related/similar design patterns: Active Record
 
 Website URL: http://scottlilly.com/c-design-patterns-data-mapper-and-active-record/
 

@@ -2,7 +2,7 @@
 
 Make it easier to use complex classes, and provide a single location to deal with classes with structures that are likely to change.
 
-Related design patterns: 
+Related/similar design patterns: 
 
 Website URL: http://scottlilly.com/c-design-patterns-the-wrapperfacade-pattern/
 
