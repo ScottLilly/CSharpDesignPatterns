@@ -57,6 +57,11 @@
     <Compile Include="CommandPattern\PatternVersion_WithUndo\Withdraw.cs" />
     <Compile Include="DataMapperPattern\Customer.cs" />
     <Compile Include="DataMapperPattern\CustomerDataMapper.cs" />
+    <Compile Include="DependencyInversionPattern\NonPatternVersion\Player.cs" />
+    <Compile Include="DependencyInversionPattern\NonPatternVersion\PlayerDataMapper.cs" />
+    <Compile Include="DependencyInversionPattern\PatternVersion\IPlayerDataMapper.cs" />
+    <Compile Include="DependencyInversionPattern\PatternVersion\Player.cs" />
+    <Compile Include="DependencyInversionPattern\PatternVersion\PlayerDataMapper.cs" />
     <Compile Include="FactoryPattern\NonPatternVersion\Player.cs" />
     <Compile Include="FactoryPattern\PatternVersion_ExternalFactory\Player.cs" />
     <Compile Include="FactoryPattern\PatternVersion_ExternalFactory\PlayerFactory.cs" />

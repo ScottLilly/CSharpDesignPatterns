@@ -54,6 +54,9 @@
   <ItemGroup>
     <Compile Include="CommandPattern\PatternVersion\TestCommandPattern.cs" />
     <Compile Include="CommandPattern\PatternVersion_WithUndo\TestCommandPattern.cs" />
+    <Compile Include="DependencyInversionPattern\NonPatternVersion\TestPlayer.cs" />
+    <Compile Include="DependencyInversionPattern\PatternVersion\MockPlayerDataMapper.cs" />
+    <Compile Include="DependencyInversionPattern\PatternVersion\TestPlayer.cs" />
     <Compile Include="FactoryPattern\TestFactoryPattern_NonPatternVersion.cs" />
     <Compile Include="FactoryPattern\TestFactoryPattern_PatternVersion_ExternalFactory.cs" />
     <Compile Include="FactoryPattern\TestFactoryPattern_PatternVersion_InternalFactory.cs" />
