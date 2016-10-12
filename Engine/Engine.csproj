@@ -75,6 +75,10 @@
     <Compile Include="MementoPattern\SimpleMemento\Customer.cs" />
     <Compile Include="MementoPattern\BetterMemento\Customer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrototypePattern\NonPatternVersion\Monster.cs" />
+    <Compile Include="PrototypePattern\PatternVersion_Complex\LootTableEntry.cs" />
+    <Compile Include="PrototypePattern\PatternVersion_Complex\Monster.cs" />
+    <Compile Include="PrototypePattern\PatternVersion_Simple\Monster.cs" />
     <Compile Include="SingletonPattern\NonPatternVersion\Customer.cs" />
     <Compile Include="SingletonPattern\NonPatternVersion\Logger.cs" />
     <Compile Include="SingletonPattern\PatternVersion_DoubleLock\Logger.cs" />
@@ -99,6 +103,7 @@
     <Content Include="FactoryPattern\READ_ME.txt" />
     <Content Include="LICENSE.txt" />
     <Content Include="MementoPattern\READ_ME.txt" />
+    <Content Include="PrototypePattern\READ_ME.txt" />
     <Content Include="READ_ME.txt" />
     <Content Include="SingletonPattern\READ_ME.txt" />
     <Content Include="StrategyPattern\READ_ME.txt" />
