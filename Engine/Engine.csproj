@@ -93,6 +93,16 @@
     <Compile Include="PrototypePattern\PatternVersion_Complex\LootTableEntry.cs" />
     <Compile Include="PrototypePattern\PatternVersion_Complex\Monster.cs" />
     <Compile Include="PrototypePattern\PatternVersion_Simple\Monster.cs" />
+    <Compile Include="PublishSubscribePattern\NonPatternVersion\Models\Location.cs" />
+    <Compile Include="PublishSubscribePattern\NonPatternVersion\Models\Player.cs" />
+    <Compile Include="PublishSubscribePattern\NonPatternVersion\ViewModels\GameSession.cs" />
+    <Compile Include="PublishSubscribePattern\PatternVersion\Models\Location.cs" />
+    <Compile Include="PublishSubscribePattern\PatternVersion\Models\Player.cs" />
+    <Compile Include="PublishSubscribePattern\PatternVersion\ViewModels\GameSession.cs" />
+    <Compile Include="PublishSubscribePattern\PatternVersion_CustomEventArgs\Common\PlayerKilledEventArgs.cs" />
+    <Compile Include="PublishSubscribePattern\PatternVersion_CustomEventArgs\Models\Location.cs" />
+    <Compile Include="PublishSubscribePattern\PatternVersion_CustomEventArgs\Models\Player.cs" />
+    <Compile Include="PublishSubscribePattern\PatternVersion_CustomEventArgs\ViewModels\GameSession.cs" />
     <Compile Include="SingletonPattern\NonPatternVersion\Customer.cs" />
     <Compile Include="SingletonPattern\NonPatternVersion\Logger.cs" />
     <Compile Include="SingletonPattern\PatternVersion_DoubleLock\Logger.cs" />
@@ -119,6 +129,7 @@
     <Content Include="LICENSE.txt" />
     <Content Include="MementoPattern\READ_ME.txt" />
     <Content Include="PrototypePattern\READ_ME.txt" />
+    <Content Include="PublishSubscribePattern\READ_ME.txt" />
     <Content Include="READ_ME.txt" />
     <Content Include="SingletonPattern\READ_ME.txt" />
     <Content Include="StrategyPattern\READ_ME.txt" />
