@@ -103,6 +103,9 @@
     <Compile Include="PublishSubscribePattern\PatternVersion_CustomEventArgs\Models\Location.cs" />
     <Compile Include="PublishSubscribePattern\PatternVersion_CustomEventArgs\Models\Player.cs" />
     <Compile Include="PublishSubscribePattern\PatternVersion_CustomEventArgs\ViewModels\GameSession.cs" />
+    <Compile Include="PublishSubscribePattern\PatternVersion_WithEvent\Models\Location.cs" />
+    <Compile Include="PublishSubscribePattern\PatternVersion_WithEvent\Models\Player.cs" />
+    <Compile Include="PublishSubscribePattern\PatternVersion_WithEvent\ViewModels\GameSession.cs" />
     <Compile Include="SingletonPattern\NonPatternVersion\Customer.cs" />
     <Compile Include="SingletonPattern\NonPatternVersion\Logger.cs" />
     <Compile Include="SingletonPattern\PatternVersion_DoubleLock\Logger.cs" />
