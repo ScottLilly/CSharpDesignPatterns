@@ -88,6 +88,8 @@
     <Compile Include="MementoPattern\MultipleMemento\Customer.cs" />
     <Compile Include="MementoPattern\SimpleMemento\Customer.cs" />
     <Compile Include="MementoPattern\BetterMemento\Customer.cs" />
+    <Compile Include="MVVMPattern\PatternVersion\Models\AccountModel.cs" />
+    <Compile Include="MVVMPattern\PatternVersion\ViewModels\AccountCreationViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PrototypePattern\NonPatternVersion\Monster.cs" />
     <Compile Include="PrototypePattern\PatternVersion_Complex\LootTableEntry.cs" />
@@ -131,6 +133,7 @@
     <Content Include="FactoryPattern\READ_ME.txt" />
     <Content Include="LICENSE.txt" />
     <Content Include="MementoPattern\READ_ME.txt" />
+    <Content Include="MVVMPattern\READ_ME.txt" />
     <Content Include="PrototypePattern\READ_ME.txt" />
     <Content Include="PublishSubscribePattern\READ_ME.txt" />
     <Content Include="READ_ME.txt" />

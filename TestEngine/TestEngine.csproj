@@ -66,6 +66,7 @@
     <Compile Include="MementoPattern\MementoPattern_SimpleMemento.cs" />
     <Compile Include="MementoPattern\MementoPattern_BetterMemento.cs" />
     <Compile Include="MementoPattern\MementoPattern_MultipleMemento.cs" />
+    <Compile Include="MVVMPattern\TestMVVMPattern.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PrototypePattern\NonPatternVersion\TestMonster.cs" />
     <Compile Include="PrototypePattern\PatternVersion_Simple\TestMonster.cs" />

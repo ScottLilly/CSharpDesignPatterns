@@ -1,0 +1,41 @@
+﻿<Window x:Class="WorkbenchWPF.MVVMPattern.PatternVersion.AccountCreationView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:Engine.MVVMPattern.PatternVersion.ViewModels;assembly=Engine"
+        d:DataContext="{d:DesignInstance viewModels:AccountCreationViewModel}"
+        mc:Ignorable="d"
+        Title="MVVM: Pattern Version" Height="300" Width="400">
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   Text="{Binding NewAccount.ValidationMessage}"
+                   Foreground="Red" 
+                   TextWrapping="Wrap"
+                   Width="200"
+                   HorizontalAlignment="Center"
+                   Padding="5" Margin="5"/>
+        <TextBox Grid.Row="1"
+                 Text="{Binding NewAccount.Password}"
+                 Width="200"
+                 HorizontalAlignment="Center"
+                 Padding="5" Margin="5"/>
+        <Button Grid.Row="2" Content="Check Password" 
+                Click="OnClick_ValidatePassword" 
+                Width="200"
+                HorizontalAlignment="Center"
+                Padding="5" Margin="5"/>
+    </Grid>
+
+</Window>
