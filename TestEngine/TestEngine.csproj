@@ -52,6 +52,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="BuilderPattern\NonPatternVersion\TestNonPatternReport.cs" />
+    <Compile Include="BuilderPattern\PatternVersion\TestPatternReport.cs" />
     <Compile Include="CommandPattern\PatternVersion\TestCommandPattern.cs" />
     <Compile Include="CommandPattern\PatternVersion_WithUndo\TestCommandPattern.cs" />
     <Compile Include="CompositionOverInheritance\Composition\TestMonsterFactory.cs" />

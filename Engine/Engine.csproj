@@ -41,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActiveRecordPattern\Customer.cs" />
+    <Compile Include="BuilderPattern\NonPatternVersion\Report.cs" />
+    <Compile Include="BuilderPattern\PatternVersion\Report.cs" />
+    <Compile Include="BuilderPattern\PatternVersion\ReportBuilder.cs" />
     <Compile Include="CommandPattern\PatternVersion\Account.cs" />
     <Compile Include="CommandPattern\NonPatternVersion\Account.cs" />
     <Compile Include="CommandPattern\PatternVersion\Deposit.cs" />
@@ -127,6 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ActiveRecordPattern\READ_ME.txt" />
+    <Content Include="BuilderPattern\READ_ME.txt" />
     <Content Include="CommandPattern\READ_ME.txt" />
     <Content Include="CompositionOverInheritance\READ_ME.txt" />
     <Content Include="DataMapperPattern\READ_ME.txt" />
