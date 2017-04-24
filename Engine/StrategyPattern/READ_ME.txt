@@ -6,8 +6,9 @@ Often used to output data in different formats - for example, XML, JSON, CSV.
 Or, to do calculations using different methods.
 Or, to handle "fail-over" situations - for example, save something to the database, if that fails, save it to a file on disk.
 
-Related/similar design patterns: Command
+Website URL: http://scottlilly.com/c-design-patterns-the-strategy-pattern/
 
-Website URL: 
+YouTube video URL: https://www.youtube.com/watch?v=b4ssMlADWTM
 
-YouTube video URL: 
+Related/similar design patterns: 
+	Command http://scottlilly.com/c-design-patterns-the-command-pattern/

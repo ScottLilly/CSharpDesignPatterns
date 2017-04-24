@@ -134,6 +134,7 @@
     <Content Include="CommandPattern\READ_ME.txt" />
     <Content Include="CompositionOverInheritance\READ_ME.txt" />
     <Content Include="DataMapperPattern\READ_ME.txt" />
+    <Content Include="DependencyInversionPattern\READ_ME.txt" />
     <Content Include="FactoryPattern\READ_ME.txt" />
     <Content Include="LICENSE.txt" />
     <Content Include="MementoPattern\READ_ME.txt" />
