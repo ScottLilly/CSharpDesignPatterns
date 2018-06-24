@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{25D0207B-A871-4EF6-A23B-1FF7B15306FE}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workbench", "Workbench\Workbench.csproj", "{A3102E09-45C1-482E-8650-48CE48B3FBB4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkbenchWPF", "WorkbenchWPF\WorkbenchWPF.csproj", "{6564A597-708D-4EB8-B41B-1922B3AA99BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorckbenchWinForms", "WorckbenchWinForms\WorckbenchWinForms.csproj", "{FABF680C-2A7C-4011-ADBE-BD1A5B612F0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,11 +35,16 @@ Global
 		{6564A597-708D-4EB8-B41B-1922B3AA99BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6564A597-708D-4EB8-B41B-1922B3AA99BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6564A597-708D-4EB8-B41B-1922B3AA99BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FABF680C-2A7C-4011-ADBE-BD1A5B612F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABF680C-2A7C-4011-ADBE-BD1A5B612F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABF680C-2A7C-4011-ADBE-BD1A5B612F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABF680C-2A7C-4011-ADBE-BD1A5B612F0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {3E208DF4-40BE-418E-899A-7065EBF7B0EC}
 	EndGlobalSection
 EndGlobal
